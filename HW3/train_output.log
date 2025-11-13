@@ -1,0 +1,580 @@
+Using device: mps
+
+Testing: RNN, ReLU, Adam, Seq 25, Clipping=False
+Epoch 1/5, Loss: 0.6934, Time: 42.93s
+Epoch 2/5, Loss: 0.6658, Time: 42.87s
+Epoch 3/5, Loss: 0.5642, Time: 42.74s
+Epoch 4/5, Loss: 0.5057, Time: 42.96s
+Epoch 5/5, Loss: 0.4643, Time: 44.04s
+Final - Accuracy: 0.7303, F1: 0.7292, Avg Epoch Time: 43.11s
+
+Testing: RNN, Tanh, Adam, Seq 25, Clipping=False
+Epoch 1/5, Loss: 0.6879, Time: 44.48s
+Epoch 2/5, Loss: 0.6480, Time: 44.36s
+Epoch 3/5, Loss: 0.5914, Time: 45.14s
+Epoch 4/5, Loss: 0.5500, Time: 45.94s
+Epoch 5/5, Loss: 0.5155, Time: 47.02s
+Final - Accuracy: 0.7188, F1: 0.7188, Avg Epoch Time: 45.39s
+
+Testing: RNN, ReLU, Adam, Seq 25, Clipping=True
+Epoch 1/5, Loss: 0.6942, Time: 47.25s
+Epoch 2/5, Loss: 0.6525, Time: 51.40s
+Epoch 3/5, Loss: 0.5608, Time: 50.44s
+Epoch 4/5, Loss: 0.5052, Time: 55.10s
+Epoch 5/5, Loss: 0.4695, Time: 50.40s
+Final - Accuracy: 0.7302, F1: 0.7300, Avg Epoch Time: 50.92s
+
+Testing: RNN, Tanh, Adam, Seq 25, Clipping=True
+Epoch 1/5, Loss: 0.6794, Time: 49.74s
+Epoch 2/5, Loss: 0.6254, Time: 48.39s
+Epoch 3/5, Loss: 0.5830, Time: 49.51s
+Epoch 4/5, Loss: 0.5453, Time: 66.38s
+Epoch 5/5, Loss: 0.5133, Time: 57.25s
+Final - Accuracy: 0.7134, F1: 0.7131, Avg Epoch Time: 54.25s
+
+Testing: RNN, ReLU, Adam, Seq 50, Clipping=False
+Epoch 1/5, Loss: 0.6937, Time: 86.82s
+Epoch 2/5, Loss: 0.6815, Time: 86.54s
+Epoch 3/5, Loss: 0.6421, Time: 86.75s
+Epoch 4/5, Loss: 0.5277, Time: 85.26s
+Epoch 5/5, Loss: 0.4660, Time: 82.77s
+Final - Accuracy: 0.7036, F1: 0.6865, Avg Epoch Time: 85.63s
+
+Testing: RNN, Tanh, Adam, Seq 50, Clipping=False
+Epoch 1/5, Loss: 0.6937, Time: 83.22s
+Epoch 2/5, Loss: 0.6927, Time: 84.02s
+Epoch 3/5, Loss: 0.6731, Time: 84.42s
+Epoch 4/5, Loss: 0.6431, Time: 85.53s
+Epoch 5/5, Loss: 0.6258, Time: 86.46s
+Final - Accuracy: 0.6582, F1: 0.6456, Avg Epoch Time: 84.73s
+
+Testing: RNN, ReLU, Adam, Seq 50, Clipping=True
+Epoch 1/5, Loss: 0.6940, Time: 86.19s
+Epoch 2/5, Loss: 0.6456, Time: 85.41s
+Epoch 3/5, Loss: 0.5333, Time: 86.54s
+Epoch 4/5, Loss: 0.4667, Time: 87.28s
+Epoch 5/5, Loss: 0.4269, Time: 86.23s
+Final - Accuracy: 0.7707, F1: 0.7684, Avg Epoch Time: 86.33s
+
+Testing: RNN, Tanh, Adam, Seq 50, Clipping=True
+Epoch 1/5, Loss: 0.6857, Time: 86.14s
+Epoch 2/5, Loss: 0.6523, Time: 86.80s
+Epoch 3/5, Loss: 0.6187, Time: 85.67s
+Epoch 4/5, Loss: 0.5787, Time: 86.53s
+Epoch 5/5, Loss: 0.5491, Time: 86.61s
+Final - Accuracy: 0.7101, F1: 0.7086, Avg Epoch Time: 86.35s
+
+Testing: RNN, ReLU, Adam, Seq 100, Clipping=False
+Epoch 1/5, Loss: 0.6941, Time: 164.00s
+Epoch 2/5, Loss: 0.6904, Time: 164.78s
+Epoch 3/5, Loss: 0.6782, Time: 160.09s
+Epoch 4/5, Loss: 0.6751, Time: 159.42s
+Epoch 5/5, Loss: 0.5595, Time: 159.79s
+Final - Accuracy: 0.7124, F1: 0.7098, Avg Epoch Time: 161.62s
+
+Testing: RNN, Tanh, Adam, Seq 100, Clipping=False
+Epoch 1/5, Loss: 0.6949, Time: 159.62s
+Epoch 2/5, Loss: 0.6901, Time: 161.91s
+Epoch 3/5, Loss: 0.6773, Time: 165.36s
+Epoch 4/5, Loss: 0.6616, Time: 172.59s
+Epoch 5/5, Loss: 0.6485, Time: 162.30s
+Final - Accuracy: 0.6493, F1: 0.6493, Avg Epoch Time: 164.36s
+
+Testing: RNN, ReLU, Adam, Seq 100, Clipping=True
+Epoch 1/5, Loss: 0.6937, Time: 162.49s
+Epoch 2/5, Loss: 0.7774, Time: 162.09s
+Epoch 3/5, Loss: 0.5806, Time: 164.05s
+Epoch 4/5, Loss: 0.5079, Time: 163.96s
+Epoch 5/5, Loss: 0.4338, Time: 164.60s
+Final - Accuracy: 0.8191, F1: 0.8191, Avg Epoch Time: 163.44s
+
+Testing: RNN, Tanh, Adam, Seq 100, Clipping=True
+Epoch 1/5, Loss: 0.6956, Time: 164.56s
+Epoch 2/5, Loss: 0.6868, Time: 164.62s
+Epoch 3/5, Loss: 0.6483, Time: 188.65s
+Epoch 4/5, Loss: 0.6048, Time: 179.30s
+Epoch 5/5, Loss: 0.5658, Time: 180.46s
+Final - Accuracy: 0.7206, F1: 0.7198, Avg Epoch Time: 175.52s
+
+Testing: RNN, ReLU, SGD, Seq 25, Clipping=False
+Epoch 1/5, Loss: 0.6976, Time: 46.81s
+Epoch 2/5, Loss: 0.6968, Time: 47.43s
+Epoch 3/5, Loss: 0.6958, Time: 46.73s
+Epoch 4/5, Loss: 0.6956, Time: 46.14s
+Epoch 5/5, Loss: 0.6953, Time: 49.94s
+Final - Accuracy: 0.5073, F1: 0.4919, Avg Epoch Time: 47.41s
+
+Testing: RNN, Tanh, SGD, Seq 25, Clipping=False
+Epoch 1/5, Loss: 0.7009, Time: 46.41s
+Epoch 2/5, Loss: 0.6989, Time: 44.48s
+Epoch 3/5, Loss: 0.6973, Time: 45.87s
+Epoch 4/5, Loss: 0.6968, Time: 46.38s
+Epoch 5/5, Loss: 0.6958, Time: 50.12s
+Final - Accuracy: 0.5102, F1: 0.5097, Avg Epoch Time: 46.65s
+
+Testing: RNN, ReLU, SGD, Seq 25, Clipping=True
+Epoch 1/5, Loss: 0.6990, Time: 46.95s
+Epoch 2/5, Loss: 0.6967, Time: 45.64s
+Epoch 3/5, Loss: 0.6956, Time: 46.11s
+Epoch 4/5, Loss: 0.6954, Time: 48.35s
+Epoch 5/5, Loss: 0.6951, Time: 49.76s
+Final - Accuracy: 0.4997, F1: 0.4929, Avg Epoch Time: 47.36s
+
+Testing: RNN, Tanh, SGD, Seq 25, Clipping=True
+Epoch 1/5, Loss: 0.7055, Time: 47.34s
+Epoch 2/5, Loss: 0.7015, Time: 48.43s
+Epoch 3/5, Loss: 0.7010, Time: 47.03s
+Epoch 4/5, Loss: 0.6984, Time: 46.83s
+Epoch 5/5, Loss: 0.6982, Time: 46.76s
+Final - Accuracy: 0.5100, F1: 0.5098, Avg Epoch Time: 47.28s
+
+Testing: RNN, ReLU, SGD, Seq 50, Clipping=False
+Epoch 1/5, Loss: 0.7003, Time: 82.78s
+Epoch 2/5, Loss: 0.6972, Time: 82.52s
+Epoch 3/5, Loss: 0.6968, Time: 82.17s
+Epoch 4/5, Loss: 0.6959, Time: 93.32s
+Epoch 5/5, Loss: 0.6957, Time: 86.32s
+Final - Accuracy: 0.5015, F1: 0.4939, Avg Epoch Time: 85.42s
+
+Testing: RNN, Tanh, SGD, Seq 50, Clipping=False
+Epoch 1/5, Loss: 0.7037, Time: 81.65s
+Epoch 2/5, Loss: 0.7003, Time: 84.28s
+Epoch 3/5, Loss: 0.6990, Time: 81.08s
+Epoch 4/5, Loss: 0.6971, Time: 87.61s
+Epoch 5/5, Loss: 0.6965, Time: 88.72s
+Final - Accuracy: 0.5081, F1: 0.5081, Avg Epoch Time: 84.67s
+
+Testing: RNN, ReLU, SGD, Seq 50, Clipping=True
+Epoch 1/5, Loss: 0.6976, Time: 107.17s
+Epoch 2/5, Loss: 0.6965, Time: 88.68s
+Epoch 3/5, Loss: 0.6961, Time: 88.58s
+Epoch 4/5, Loss: 0.6956, Time: 85.77s
+Epoch 5/5, Loss: 0.6952, Time: 105.79s
+Final - Accuracy: 0.5068, F1: 0.5053, Avg Epoch Time: 95.20s
+
+Testing: RNN, Tanh, SGD, Seq 50, Clipping=True
+Epoch 1/5, Loss: 0.7025, Time: 87.76s
+Epoch 2/5, Loss: 0.7009, Time: 92.28s
+Epoch 3/5, Loss: 0.6992, Time: 97.60s
+Epoch 4/5, Loss: 0.6969, Time: 97.43s
+Epoch 5/5, Loss: 0.6971, Time: 94.54s
+Final - Accuracy: 0.5087, F1: 0.5086, Avg Epoch Time: 93.92s
+
+Testing: RNN, ReLU, SGD, Seq 100, Clipping=False
+Epoch 1/5, Loss: 0.6973, Time: 173.23s
+Epoch 2/5, Loss: 0.6962, Time: 180.57s
+Epoch 3/5, Loss: 0.6953, Time: 169.22s
+Epoch 4/5, Loss: 0.6957, Time: 169.49s
+Epoch 5/5, Loss: 0.6954, Time: 172.49s
+Final - Accuracy: 0.5113, F1: 0.5113, Avg Epoch Time: 173.00s
+
+Testing: RNN, Tanh, SGD, Seq 100, Clipping=False
+Epoch 1/5, Loss: 0.7028, Time: 176.76s
+Epoch 2/5, Loss: 0.7007, Time: 185.40s
+Epoch 3/5, Loss: 0.6992, Time: 172.64s
+Epoch 4/5, Loss: 0.6980, Time: 164.49s
+Epoch 5/5, Loss: 0.6960, Time: 167.31s
+Final - Accuracy: 0.5067, F1: 0.5067, Avg Epoch Time: 173.32s
+
+Testing: RNN, ReLU, SGD, Seq 100, Clipping=True
+Epoch 1/5, Loss: 0.6984, Time: 179.57s
+Epoch 2/5, Loss: 0.6972, Time: 181.90s
+Epoch 3/5, Loss: 0.6957, Time: 183.96s
+Epoch 4/5, Loss: 0.6967, Time: 175.49s
+Epoch 5/5, Loss: 0.6955, Time: 179.37s
+Final - Accuracy: 0.5052, F1: 0.5016, Avg Epoch Time: 180.06s
+
+Testing: RNN, Tanh, SGD, Seq 100, Clipping=True
+Epoch 1/5, Loss: 0.6989, Time: 179.72s
+Epoch 2/5, Loss: 0.6976, Time: 178.36s
+Epoch 3/5, Loss: 0.6971, Time: 174.68s
+Epoch 4/5, Loss: 0.6958, Time: 179.08s
+Epoch 5/5, Loss: 0.6958, Time: 164.90s
+Final - Accuracy: 0.5117, F1: 0.5116, Avg Epoch Time: 175.35s
+
+Testing: RNN, ReLU, RMSprop, Seq 25, Clipping=False
+Epoch 1/5, Loss: 0.6919, Time: 45.69s
+Epoch 2/5, Loss: 0.6191, Time: 45.20s
+Epoch 3/5, Loss: 0.5513, Time: 45.02s
+Epoch 4/5, Loss: 0.5099, Time: 47.94s
+Epoch 5/5, Loss: 0.4783, Time: 55.46s
+Final - Accuracy: 0.7377, F1: 0.7361, Avg Epoch Time: 47.86s
+
+Testing: RNN, Tanh, RMSprop, Seq 25, Clipping=False
+Epoch 1/5, Loss: 0.6898, Time: 58.13s
+Epoch 2/5, Loss: 0.6628, Time: 57.54s
+Epoch 3/5, Loss: 0.6338, Time: 56.55s
+Epoch 4/5, Loss: 0.6000, Time: 50.80s
+Epoch 5/5, Loss: 0.5742, Time: 46.94s
+Final - Accuracy: 0.7074, F1: 0.7074, Avg Epoch Time: 53.99s
+
+Testing: RNN, ReLU, RMSprop, Seq 25, Clipping=True
+Epoch 1/5, Loss: 0.6932, Time: 49.71s
+Epoch 2/5, Loss: 0.6373, Time: 48.81s
+Epoch 3/5, Loss: 0.5645, Time: 48.62s
+Epoch 4/5, Loss: 0.5225, Time: 50.43s
+Epoch 5/5, Loss: 0.4925, Time: 53.07s
+Final - Accuracy: 0.7234, F1: 0.7188, Avg Epoch Time: 50.12s
+
+Testing: RNN, Tanh, RMSprop, Seq 25, Clipping=True
+Epoch 1/5, Loss: 0.6829, Time: 49.95s
+Epoch 2/5, Loss: 0.6374, Time: 58.77s
+Epoch 3/5, Loss: 0.5966, Time: 48.66s
+Epoch 4/5, Loss: 0.5606, Time: 48.42s
+Epoch 5/5, Loss: 0.5329, Time: 47.82s
+Final - Accuracy: 0.7137, F1: 0.7137, Avg Epoch Time: 50.73s
+
+Testing: RNN, ReLU, RMSprop, Seq 50, Clipping=False
+Epoch 1/5, Loss: 0.6943, Time: 83.10s
+Epoch 2/5, Loss: 0.6678, Time: 84.03s
+Epoch 3/5, Loss: 0.5723, Time: 84.17s
+Epoch 4/5, Loss: 0.5003, Time: 85.29s
+Epoch 5/5, Loss: 0.4532, Time: 85.47s
+Final - Accuracy: 0.7676, F1: 0.7671, Avg Epoch Time: 84.41s
+
+Testing: RNN, Tanh, RMSprop, Seq 50, Clipping=False
+Epoch 1/5, Loss: 0.6908, Time: 85.28s
+Epoch 2/5, Loss: 0.6814, Time: 84.58s
+Epoch 3/5, Loss: 0.6651, Time: 85.56s
+Epoch 4/5, Loss: 0.6209, Time: 87.24s
+Epoch 5/5, Loss: 0.5968, Time: 101.82s
+Final - Accuracy: 0.7067, F1: 0.7059, Avg Epoch Time: 88.90s
+
+Testing: RNN, ReLU, RMSprop, Seq 50, Clipping=True
+Epoch 1/5, Loss: 0.6931, Time: 95.02s
+Epoch 2/5, Loss: 0.6174, Time: 91.63s
+Epoch 3/5, Loss: 0.5321, Time: 87.87s
+Epoch 4/5, Loss: 0.4812, Time: 88.30s
+Epoch 5/5, Loss: 0.4453, Time: 87.98s
+Final - Accuracy: 0.7751, F1: 0.7743, Avg Epoch Time: 90.16s
+
+Testing: RNN, Tanh, RMSprop, Seq 50, Clipping=True
+Epoch 1/5, Loss: 0.6877, Time: 88.08s
+Epoch 2/5, Loss: 0.6418, Time: 89.88s
+Epoch 3/5, Loss: 0.6024, Time: 101.62s
+Epoch 4/5, Loss: 0.5641, Time: 110.85s
+Epoch 5/5, Loss: 0.5313, Time: 99.55s
+Final - Accuracy: 0.7045, F1: 0.6990, Avg Epoch Time: 98.00s
+
+Testing: RNN, ReLU, RMSprop, Seq 100, Clipping=False
+Epoch 1/5, Loss: 0.6937, Time: 192.91s
+Epoch 2/5, Loss: 0.6873, Time: 177.61s
+Epoch 3/5, Loss: 0.6482, Time: 171.28s
+Epoch 4/5, Loss: 0.6503, Time: 162.46s
+Epoch 5/5, Loss: 0.5136, Time: 164.22s
+Final - Accuracy: 0.7912, F1: 0.7900, Avg Epoch Time: 173.70s
+
+Testing: RNN, Tanh, RMSprop, Seq 100, Clipping=False
+Epoch 1/5, Loss: 0.6957, Time: 158.80s
+Epoch 2/5, Loss: 0.6854, Time: 176.14s
+Epoch 3/5, Loss: 0.6860, Time: 159.62s
+Epoch 4/5, Loss: 0.6652, Time: 167.86s
+Epoch 5/5, Loss: 0.6523, Time: 165.15s
+Final - Accuracy: 0.6191, F1: 0.6136, Avg Epoch Time: 165.51s
+
+Testing: RNN, ReLU, RMSprop, Seq 100, Clipping=True
+Epoch 1/5, Loss: 0.6939, Time: 163.69s
+Epoch 2/5, Loss: 0.7098, Time: 166.15s
+Epoch 3/5, Loss: 0.5758, Time: 167.22s
+Epoch 4/5, Loss: 0.5224, Time: 166.35s
+Epoch 5/5, Loss: 0.4718, Time: 166.96s
+Final - Accuracy: 0.7866, F1: 0.7829, Avg Epoch Time: 166.08s
+
+Testing: RNN, Tanh, RMSprop, Seq 100, Clipping=True
+Epoch 1/5, Loss: 0.6902, Time: 162.89s
+Epoch 2/5, Loss: 0.6704, Time: 165.45s
+Epoch 3/5, Loss: 0.6419, Time: 167.15s
+Epoch 4/5, Loss: 0.6109, Time: 163.14s
+Epoch 5/5, Loss: 0.5788, Time: 166.72s
+Final - Accuracy: 0.7153, F1: 0.7153, Avg Epoch Time: 165.07s
+
+Testing: LSTM, Adam, Seq 25, Clipping=False
+Epoch 1/5, Loss: 0.6324, Time: 11.92s
+Epoch 2/5, Loss: 0.5218, Time: 10.89s
+Epoch 3/5, Loss: 0.4547, Time: 11.15s
+Epoch 4/5, Loss: 0.3989, Time: 11.00s
+Epoch 5/5, Loss: 0.3461, Time: 10.90s
+Final - Accuracy: 0.7283, F1: 0.7277, Avg Epoch Time: 11.17s
+
+Testing: LSTM, Adam, Seq 25, Clipping=True
+Epoch 1/5, Loss: 0.6297, Time: 13.34s
+Epoch 2/5, Loss: 0.5217, Time: 13.66s
+Epoch 3/5, Loss: 0.4560, Time: 13.35s
+Epoch 4/5, Loss: 0.3992, Time: 13.46s
+Epoch 5/5, Loss: 0.3421, Time: 13.03s
+Final - Accuracy: 0.7330, F1: 0.7326, Avg Epoch Time: 13.37s
+
+Testing: LSTM, Adam, Seq 50, Clipping=False
+Epoch 1/5, Loss: 0.6753, Time: 13.76s
+Epoch 2/5, Loss: 0.5510, Time: 13.62s
+Epoch 3/5, Loss: 0.4487, Time: 13.94s
+Epoch 4/5, Loss: 0.3921, Time: 14.52s
+Epoch 5/5, Loss: 0.3426, Time: 15.82s
+Final - Accuracy: 0.7780, F1: 0.7780, Avg Epoch Time: 14.33s
+
+Testing: LSTM, Adam, Seq 50, Clipping=True
+Epoch 1/5, Loss: 0.6355, Time: 18.00s
+Epoch 2/5, Loss: 0.5115, Time: 18.01s
+Epoch 3/5, Loss: 0.4236, Time: 16.72s
+Epoch 4/5, Loss: 0.3671, Time: 18.76s
+Epoch 5/5, Loss: 0.3188, Time: 22.31s
+Final - Accuracy: 0.7780, F1: 0.7769, Avg Epoch Time: 18.76s
+
+Testing: LSTM, Adam, Seq 100, Clipping=False
+Epoch 1/5, Loss: 0.6545, Time: 26.80s
+Epoch 2/5, Loss: 0.5561, Time: 21.26s
+Epoch 3/5, Loss: 0.4670, Time: 30.73s
+Epoch 4/5, Loss: 0.3865, Time: 27.40s
+Epoch 5/5, Loss: 0.3351, Time: 25.11s
+Final - Accuracy: 0.8278, F1: 0.8270, Avg Epoch Time: 26.26s
+
+Testing: LSTM, Adam, Seq 100, Clipping=True
+Epoch 1/5, Loss: 0.6428, Time: 29.45s
+Epoch 2/5, Loss: 0.4792, Time: 29.92s
+Epoch 3/5, Loss: 0.3744, Time: 32.60s
+Epoch 4/5, Loss: 0.3145, Time: 30.00s
+Epoch 5/5, Loss: 0.2643, Time: 30.11s
+Final - Accuracy: 0.8334, F1: 0.8331, Avg Epoch Time: 30.42s
+
+Testing: LSTM, SGD, Seq 25, Clipping=False
+Epoch 1/5, Loss: 0.6938, Time: 11.18s
+Epoch 2/5, Loss: 0.6936, Time: 11.82s
+Epoch 3/5, Loss: 0.6937, Time: 12.14s
+Epoch 4/5, Loss: 0.6933, Time: 12.62s
+Epoch 5/5, Loss: 0.6934, Time: 11.68s
+Final - Accuracy: 0.5093, F1: 0.5034, Avg Epoch Time: 11.89s
+
+Testing: LSTM, SGD, Seq 25, Clipping=True
+Epoch 1/5, Loss: 0.6951, Time: 13.59s
+Epoch 2/5, Loss: 0.6943, Time: 14.05s
+Epoch 3/5, Loss: 0.6939, Time: 13.84s
+Epoch 4/5, Loss: 0.6938, Time: 13.13s
+Epoch 5/5, Loss: 0.6938, Time: 13.08s
+Final - Accuracy: 0.5086, F1: 0.5013, Avg Epoch Time: 13.54s
+
+Testing: LSTM, SGD, Seq 50, Clipping=False
+Epoch 1/5, Loss: 0.6945, Time: 16.48s
+Epoch 2/5, Loss: 0.6937, Time: 16.72s
+Epoch 3/5, Loss: 0.6937, Time: 16.22s
+Epoch 4/5, Loss: 0.6934, Time: 16.30s
+Epoch 5/5, Loss: 0.6931, Time: 16.21s
+Final - Accuracy: 0.5042, F1: 0.4912, Avg Epoch Time: 16.39s
+
+Testing: LSTM, SGD, Seq 50, Clipping=True
+Epoch 1/5, Loss: 0.6939, Time: 18.34s
+Epoch 2/5, Loss: 0.6940, Time: 12.97s
+Epoch 3/5, Loss: 0.6936, Time: 14.20s
+Epoch 4/5, Loss: 0.6936, Time: 14.06s
+Epoch 5/5, Loss: 0.6936, Time: 15.24s
+Final - Accuracy: 0.5057, F1: 0.5002, Avg Epoch Time: 14.96s
+
+Testing: LSTM, SGD, Seq 100, Clipping=False
+Epoch 1/5, Loss: 0.6947, Time: 20.19s
+Epoch 2/5, Loss: 0.6937, Time: 20.77s
+Epoch 3/5, Loss: 0.6933, Time: 20.24s
+Epoch 4/5, Loss: 0.6935, Time: 28.40s
+Epoch 5/5, Loss: 0.6932, Time: 24.56s
+Final - Accuracy: 0.5032, F1: 0.4954, Avg Epoch Time: 22.83s
+
+Testing: LSTM, SGD, Seq 100, Clipping=True
+Epoch 1/5, Loss: 0.6943, Time: 46.88s
+Epoch 2/5, Loss: 0.6936, Time: 31.95s
+Epoch 3/5, Loss: 0.6933, Time: 32.00s
+Epoch 4/5, Loss: 0.6931, Time: 24.24s
+Epoch 5/5, Loss: 0.6929, Time: 29.63s
+Final - Accuracy: 0.5165, F1: 0.5049, Avg Epoch Time: 32.94s
+
+Testing: LSTM, RMSprop, Seq 25, Clipping=False
+Epoch 1/5, Loss: 0.6275, Time: 16.18s
+Epoch 2/5, Loss: 0.5301, Time: 13.64s
+Epoch 3/5, Loss: 0.4726, Time: 11.82s
+Epoch 4/5, Loss: 0.4254, Time: 14.98s
+Epoch 5/5, Loss: 0.3761, Time: 14.99s
+Final - Accuracy: 0.7364, F1: 0.7363, Avg Epoch Time: 14.32s
+
+Testing: LSTM, RMSprop, Seq 25, Clipping=True
+Epoch 1/5, Loss: 0.6329, Time: 17.43s
+Epoch 2/5, Loss: 0.5377, Time: 19.77s
+Epoch 3/5, Loss: 0.4787, Time: 17.51s
+Epoch 4/5, Loss: 0.4303, Time: 12.72s
+Epoch 5/5, Loss: 0.3809, Time: 16.94s
+Final - Accuracy: 0.7335, F1: 0.7331, Avg Epoch Time: 16.87s
+
+Testing: LSTM, RMSprop, Seq 50, Clipping=False
+Epoch 1/5, Loss: 0.6291, Time: 19.43s
+Epoch 2/5, Loss: 0.5285, Time: 21.88s
+Epoch 3/5, Loss: 0.4652, Time: 21.57s
+Epoch 4/5, Loss: 0.4189, Time: 20.35s
+Epoch 5/5, Loss: 0.3797, Time: 16.89s
+Final - Accuracy: 0.7751, F1: 0.7749, Avg Epoch Time: 20.03s
+
+Testing: LSTM, RMSprop, Seq 50, Clipping=True
+Epoch 1/5, Loss: 0.6414, Time: 19.45s
+Epoch 2/5, Loss: 0.5218, Time: 19.13s
+Epoch 3/5, Loss: 0.4468, Time: 22.92s
+Epoch 4/5, Loss: 0.3945, Time: 19.41s
+Epoch 5/5, Loss: 0.3525, Time: 19.75s
+Final - Accuracy: 0.7818, F1: 0.7811, Avg Epoch Time: 20.13s
+
+Testing: LSTM, RMSprop, Seq 100, Clipping=False
+Epoch 1/5, Loss: 0.6747, Time: 28.11s
+Epoch 2/5, Loss: 0.5878, Time: 23.91s
+Epoch 3/5, Loss: 0.4720, Time: 25.06s
+Epoch 4/5, Loss: 0.3757, Time: 27.18s
+Epoch 5/5, Loss: 0.3176, Time: 25.17s
+Final - Accuracy: 0.8422, F1: 0.8422, Avg Epoch Time: 25.88s
+
+Testing: LSTM, RMSprop, Seq 100, Clipping=True
+Epoch 1/5, Loss: 0.6469, Time: 26.39s
+Epoch 2/5, Loss: 0.5415, Time: 27.93s
+Epoch 3/5, Loss: 0.4526, Time: 29.27s
+Epoch 4/5, Loss: 0.3812, Time: 29.71s
+Epoch 5/5, Loss: 0.3371, Time: 27.54s
+Final - Accuracy: 0.8275, F1: 0.8269, Avg Epoch Time: 28.17s
+
+Testing: BiLSTM, Adam, Seq 25, Clipping=False
+Epoch 1/5, Loss: 0.6140, Time: 28.88s
+Epoch 2/5, Loss: 0.5025, Time: 34.73s
+Epoch 3/5, Loss: 0.4339, Time: 34.07s
+Epoch 4/5, Loss: 0.3649, Time: 35.22s
+Epoch 5/5, Loss: 0.2952, Time: 33.21s
+Final - Accuracy: 0.7317, F1: 0.7316, Avg Epoch Time: 33.22s
+
+Testing: BiLSTM, Adam, Seq 25, Clipping=True
+Epoch 1/5, Loss: 0.6044, Time: 35.83s
+Epoch 2/5, Loss: 0.4951, Time: 39.05s
+Epoch 3/5, Loss: 0.4259, Time: 36.02s
+Epoch 4/5, Loss: 0.3557, Time: 39.21s
+Epoch 5/5, Loss: 0.2832, Time: 30.13s
+Final - Accuracy: 0.7345, F1: 0.7344, Avg Epoch Time: 36.05s
+
+Testing: BiLSTM, Adam, Seq 50, Clipping=False
+Epoch 1/5, Loss: 0.6081, Time: 38.78s
+Epoch 2/5, Loss: 0.4857, Time: 36.38s
+Epoch 3/5, Loss: 0.4094, Time: 35.84s
+Epoch 4/5, Loss: 0.3655, Time: 37.04s
+Epoch 5/5, Loss: 0.3256, Time: 36.76s
+Final - Accuracy: 0.7863, F1: 0.7862, Avg Epoch Time: 36.96s
+
+Testing: BiLSTM, Adam, Seq 50, Clipping=True
+Epoch 1/5, Loss: 0.5812, Time: 37.33s
+Epoch 2/5, Loss: 0.4452, Time: 39.23s
+Epoch 3/5, Loss: 0.3702, Time: 38.26s
+Epoch 4/5, Loss: 0.3100, Time: 40.19s
+Epoch 5/5, Loss: 0.2480, Time: 42.43s
+Final - Accuracy: 0.7809, F1: 0.7809, Avg Epoch Time: 39.49s
+
+Testing: BiLSTM, Adam, Seq 100, Clipping=False
+Epoch 1/5, Loss: 0.6110, Time: 48.61s
+Epoch 2/5, Loss: 0.4304, Time: 49.27s
+Epoch 3/5, Loss: 0.3387, Time: 43.72s
+Epoch 4/5, Loss: 0.2840, Time: 45.84s
+Epoch 5/5, Loss: 0.2339, Time: 45.88s
+Final - Accuracy: 0.8412, F1: 0.8410, Avg Epoch Time: 46.66s
+
+Testing: BiLSTM, Adam, Seq 100, Clipping=True
+Epoch 1/5, Loss: 0.5840, Time: 47.77s
+Epoch 2/5, Loss: 0.4231, Time: 48.50s
+Epoch 3/5, Loss: 0.3386, Time: 60.25s
+Epoch 4/5, Loss: 0.2789, Time: 62.34s
+Epoch 5/5, Loss: 0.2269, Time: 62.49s
+Final - Accuracy: 0.8344, F1: 0.8343, Avg Epoch Time: 56.27s
+
+Testing: BiLSTM, SGD, Seq 25, Clipping=False
+Epoch 1/5, Loss: 0.6936, Time: 24.85s
+Epoch 2/5, Loss: 0.6937, Time: 21.83s
+Epoch 3/5, Loss: 0.6935, Time: 20.32s
+Epoch 4/5, Loss: 0.6933, Time: 21.47s
+Epoch 5/5, Loss: 0.6932, Time: 25.06s
+Final - Accuracy: 0.5082, F1: 0.5073, Avg Epoch Time: 22.70s
+
+Testing: BiLSTM, SGD, Seq 25, Clipping=True
+Epoch 1/5, Loss: 0.6943, Time: 29.04s
+Epoch 2/5, Loss: 0.6939, Time: 32.09s
+Epoch 3/5, Loss: 0.6938, Time: 30.06s
+Epoch 4/5, Loss: 0.6934, Time: 25.16s
+Epoch 5/5, Loss: 0.6934, Time: 35.72s
+Final - Accuracy: 0.5006, F1: 0.4986, Avg Epoch Time: 30.41s
+
+Testing: BiLSTM, SGD, Seq 50, Clipping=False
+Epoch 1/5, Loss: 0.6939, Time: 31.01s
+Epoch 2/5, Loss: 0.6934, Time: 29.81s
+Epoch 3/5, Loss: 0.6930, Time: 26.14s
+Epoch 4/5, Loss: 0.6931, Time: 32.84s
+Epoch 5/5, Loss: 0.6931, Time: 24.60s
+Final - Accuracy: 0.5083, F1: 0.5068, Avg Epoch Time: 28.88s
+
+Testing: BiLSTM, SGD, Seq 50, Clipping=True
+Epoch 1/5, Loss: 0.6938, Time: 27.64s
+Epoch 2/5, Loss: 0.6936, Time: 27.81s
+Epoch 3/5, Loss: 0.6934, Time: 29.73s
+Epoch 4/5, Loss: 0.6933, Time: 26.36s
+Epoch 5/5, Loss: 0.6934, Time: 26.50s
+Final - Accuracy: 0.5021, F1: 0.5017, Avg Epoch Time: 27.61s
+
+Testing: BiLSTM, SGD, Seq 100, Clipping=False
+Epoch 1/5, Loss: 0.6946, Time: 37.65s
+Epoch 2/5, Loss: 0.6942, Time: 43.50s
+Epoch 3/5, Loss: 0.6941, Time: 43.38s
+Epoch 4/5, Loss: 0.6940, Time: 43.22s
+Epoch 5/5, Loss: 0.6936, Time: 38.81s
+Final - Accuracy: 0.5047, F1: 0.5013, Avg Epoch Time: 41.31s
+
+Testing: BiLSTM, SGD, Seq 100, Clipping=True
+Epoch 1/5, Loss: 0.6941, Time: 43.27s
+Epoch 2/5, Loss: 0.6939, Time: 43.31s
+Epoch 3/5, Loss: 0.6936, Time: 39.64s
+Epoch 4/5, Loss: 0.6936, Time: 48.71s
+Epoch 5/5, Loss: 0.6933, Time: 56.72s
+Final - Accuracy: 0.4955, F1: 0.4950, Avg Epoch Time: 46.33s
+
+Testing: BiLSTM, RMSprop, Seq 25, Clipping=False
+Epoch 1/5, Loss: 0.6040, Time: 25.68s
+Epoch 2/5, Loss: 0.5089, Time: 25.17s
+Epoch 3/5, Loss: 0.4469, Time: 25.00s
+Epoch 4/5, Loss: 0.3879, Time: 24.84s
+Epoch 5/5, Loss: 0.3299, Time: 20.03s
+Final - Accuracy: 0.7325, F1: 0.7319, Avg Epoch Time: 24.14s
+
+Testing: BiLSTM, RMSprop, Seq 25, Clipping=True
+Epoch 1/5, Loss: 0.6056, Time: 28.90s
+Epoch 2/5, Loss: 0.5076, Time: 29.48s
+Epoch 3/5, Loss: 0.4432, Time: 29.81s
+Epoch 4/5, Loss: 0.3839, Time: 29.89s
+Epoch 5/5, Loss: 0.3174, Time: 29.67s
+Final - Accuracy: 0.7324, F1: 0.7324, Avg Epoch Time: 29.55s
+
+Testing: BiLSTM, RMSprop, Seq 50, Clipping=False
+Epoch 1/5, Loss: 0.5820, Time: 23.77s
+Epoch 2/5, Loss: 0.4625, Time: 27.45s
+Epoch 3/5, Loss: 0.3939, Time: 27.36s
+Epoch 4/5, Loss: 0.3381, Time: 27.55s
+Epoch 5/5, Loss: 0.2822, Time: 27.44s
+Final - Accuracy: 0.7824, F1: 0.7821, Avg Epoch Time: 26.71s
+
+Testing: BiLSTM, RMSprop, Seq 50, Clipping=True
+Epoch 1/5, Loss: 0.5885, Time: 29.11s
+Epoch 2/5, Loss: 0.4562, Time: 30.40s
+Epoch 3/5, Loss: 0.3909, Time: 30.37s
+Epoch 4/5, Loss: 0.3341, Time: 30.70s
+Epoch 5/5, Loss: 0.2791, Time: 28.88s
+Final - Accuracy: 0.7840, F1: 0.7839, Avg Epoch Time: 29.89s
+
+Testing: BiLSTM, RMSprop, Seq 100, Clipping=False
+Epoch 1/5, Loss: 0.6139, Time: 45.85s
+Epoch 2/5, Loss: 0.4615, Time: 45.84s
+Epoch 3/5, Loss: 0.3874, Time: 43.98s
+Epoch 4/5, Loss: 0.3326, Time: 42.68s
+Epoch 5/5, Loss: 0.2896, Time: 44.04s
+Final - Accuracy: 0.8353, F1: 0.8352, Avg Epoch Time: 44.48s
+
+Testing: BiLSTM, RMSprop, Seq 100, Clipping=True
+Epoch 1/5, Loss: 0.6110, Time: 46.64s
+Epoch 2/5, Loss: 0.4508, Time: 44.01s
+Epoch 3/5, Loss: 0.3610, Time: 53.25s
+Epoch 4/5, Loss: 0.3037, Time: 52.10s
+Epoch 5/5, Loss: 0.2570, Time: 59.23s
+Final - Accuracy: 0.8438, F1: 0.8435, Avg Epoch Time: 51.04s
+
+Training and evaluation complete. Results saved to results/metrics.csv.
+Total configurations tested: 72
